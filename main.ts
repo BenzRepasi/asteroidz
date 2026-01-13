@@ -29,7 +29,6 @@ let Asteroid_Flaming: Sprite = null
 let Asteroid_normal: Sprite = null
 let Asteroid_Big: Sprite = null
 let stage_num = 0
-music.setTempo(122)
 music.play(music.createSong(assets.song`Theme music`), music.PlaybackMode.LoopingInBackground)
 scene.setBackgroundImage(img`
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
